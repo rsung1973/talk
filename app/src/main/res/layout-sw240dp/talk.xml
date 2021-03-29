@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/monitor_bkg" >
+
+    <TextView
+        android:id="@+id/talk_prompt"
+        android:layout_width="730dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/talk_view"
+        android:layout_width="384dp"
+        android:layout_height="244dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="20dp"
+        android:background="#000000" />
+ 
+    <com.dnake.widget.Button2
+        android:id="@+id/talk_answer"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/talk_view"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/talk_view"
+        android:background="@drawable/talk_btn_answer" />
+
+    <com.dnake.widget.Button2
+        android:id="@+id/talk_unlock"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/talk_view"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="164dp"
+        android:layout_toRightOf="@+id/talk_view"
+        android:background="@drawable/talk_btn_unlock" />
+
+    <com.dnake.widget.Button2
+        android:id="@+id/talk_jpeg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/talk_view"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="88dp"
+        android:layout_toRightOf="@+id/talk_view"
+        android:background="@drawable/talk_btn_jpeg" />
+
+    <com.dnake.widget.Button2
+        android:id="@+id/talk_rec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignTop="@+id/talk_view"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="394dp"
+        android:layout_toRightOf="@+id/talk_view"
+        android:background="@drawable/talk_btn_rec" />
+
+    <TextView
+        android:id="@+id/talk_text"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignTop="@+id/talk_view"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="502dp"
+        android:layout_toRightOf="@+id/talk_view"
+        android:gravity="right"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/talk_align_dummy"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true" 
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:id="@+id/talk_icon_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/talk_view"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:visibility="gone"
+        android:src="@drawable/talk_icon_volume" />
+
+    <SeekBar
+        android:id="@+id/talk_volume"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/talk_icon_volume" />
+
+    <com.dnake.widget.Button2
+        android:id="@+id/talk_mic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignLeft="@+id/talk_view"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/talk_mic_ok" />
+
+    <com.dnake.widget.Button2
+        android:id="@+id/talk_dtmf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignLeft="@+id/talk_view"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/talk_btn_dtmf" />
+
+    <TextView
+        android:id="@+id/talk_host"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/talk_full"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</RelativeLayout>

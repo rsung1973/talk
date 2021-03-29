@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/monitor_bkg" >
+
+    <ImageView
+        android:id="@+id/monitor_view_label"
+        android:layout_width="320dp"
+        android:layout_height="230dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/monitor_err_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/monitor_view_label"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:textIsSelectable="false"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/monitor_view_label" >
+
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/monitor_btn_unlock_b" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/monitor_btn_unlock"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/monitor_btn_unlock" />
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="98dp"
+            android:src="@drawable/monitor_text_bkg" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="88dp"
+            android:src="@drawable/monitor_btn_start_b" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/monitor_btn_start"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="95dp"
+            android:background="@drawable/monitor_btn_start" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="204dp"
+            android:src="@drawable/monitor_btn_start_b" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/monitor_btn_stop"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="212dp"
+            android:background="@drawable/monitor_btn_stop" />
+
+        <Button
+            android:id="@+id/monitor_btn_unit"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="144dp"
+            android:background="@drawable/monitor_btn_unit"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/monitor_btn_right"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="154dp"
+            android:background="@drawable/monitor_btn_right" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/monitor_btn_left"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="154dp"
+            android:background="@drawable/monitor_btn_left" />
+    </RelativeLayout>
+
+</RelativeLayout>

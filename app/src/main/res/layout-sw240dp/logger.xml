@@ -1,0 +1,466 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sub_bkg3"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="left"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:gravity="center"
+                android:text="@string/logger_text_no"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@drawable/logger_div" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/logger_text_id"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@drawable/logger_div" />
+
+            <TextView
+                android:layout_width="152dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/logger_text_ts"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@drawable/logger_div" />
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/logger_text_length"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp" >
+
+            <TableRow
+                android:id="@+id/logger_data_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left" >
+
+                <ImageView
+                    android:id="@+id/logger_type_0"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+                    android:src="@drawable/logger_type_1" />
+
+                <TextView
+                    android:id="@+id/logger_data_idx_0"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_id_0"
+                    android:layout_width="162dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_ts_0"
+                    android:layout_width="154dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_len_0"
+                    android:layout_width="44dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/logger_have_0"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/logger_data_have" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/logger_data_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left" >
+
+                <ImageView
+                    android:id="@+id/logger_type_1"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+                    android:src="@drawable/logger_type_1" />
+
+                <TextView
+                    android:id="@+id/logger_data_idx_1"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_id_1"
+                    android:layout_width="162dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_ts_1"
+                    android:layout_width="154dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_len_1"
+                    android:layout_width="44dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/logger_have_1"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/logger_data_have" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/logger_data_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left" >
+
+                <ImageView
+                    android:id="@+id/logger_type_2"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+                    android:src="@drawable/logger_type_1" />
+
+                <TextView
+                    android:id="@+id/logger_data_idx_2"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_id_2"
+                    android:layout_width="162dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_ts_2"
+                    android:layout_width="154dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_len_2"
+                    android:layout_width="44dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/logger_have_2"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/logger_data_have" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/logger_data_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left" >
+
+                <ImageView
+                    android:id="@+id/logger_type_3"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+                    android:src="@drawable/logger_type_1" />
+
+                <TextView
+                    android:id="@+id/logger_data_idx_3"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_id_3"
+                    android:layout_width="162dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_ts_3"
+                    android:layout_width="154dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_len_3"
+                    android:layout_width="44dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/logger_have_3"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/logger_data_have" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/logger_data_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left" >
+
+                <ImageView
+                    android:id="@+id/logger_type_4"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+                    android:src="@drawable/logger_type_1" />
+
+                <TextView
+                    android:id="@+id/logger_data_idx_4"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_id_4"
+                    android:layout_width="162dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_ts_4"
+                    android:layout_width="154dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_len_4"
+                    android:layout_width="44dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/logger_have_4"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/logger_data_have" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/logger_data_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left" >
+
+                <ImageView
+                    android:id="@+id/logger_type_5"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+                    android:src="@drawable/logger_type_1" />
+
+                <TextView
+                    android:id="@+id/logger_data_idx_5"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_id_5"
+                    android:layout_width="162dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_ts_5"
+                    android:layout_width="154dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/logger_data_len_5"
+                    android:layout_width="44dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/logger_have_5"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/logger_data_have" />
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="bottom|center"
+                android:orientation="horizontal" >
+
+                <com.dnake.widget.Button2
+                    android:id="@+id/logger_btn_callback"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/logger_btn_callback" />
+
+                <com.dnake.widget.Button2
+                    android:id="@+id/logger_btn_up"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/logger_btn_up" />
+
+                <com.dnake.widget.Button2
+                    android:id="@+id/logger_btn_down"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/logger_btn_down" />
+
+                <com.dnake.widget.Button2
+                    android:id="@+id/logger_btn_backup"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/logger_btn_backup" />
+
+                <com.dnake.widget.Button2
+                    android:id="@+id/logger_btn_del"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/logger_btn_del" />
+
+                <com.dnake.widget.Button2
+                    android:id="@+id/logger_btn_block"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/logger_btn_block" />
+            </LinearLayout>
+        </TableLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/logger_callback_bkg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/logger_call_bkg"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/logger_callback_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32dp"
+            android:gravity="center"
+            android:text="@string/logger_callback_text"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/logger_callback_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/logger_callback_text"
+            android:gravity="left"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

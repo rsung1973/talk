@@ -1,0 +1,237 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sub_bkg2" >
+
+    <RelativeLayout
+        android:id="@+id/call_pb_bkg"
+        android:layout_width="280dp"
+        android:layout_height="500dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="24dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/call_pb_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:text="@string/call_phonebook"
+            android:textColor="#FFFFFF"
+            android:textIsSelectable="false"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="64dp"
+            android:src="@drawable/call_pb_line" />
+
+        <ListView
+            android:id="@+id/call_phonebook"
+            android:layout_width="260dp"
+            android:layout_height="430dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="72dp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/call_div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/setup_div" />
+
+    <TextView
+        android:id="@+id/call_text_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="36dp"
+        android:layout_toRightOf="@+id/call_div"
+        android:background="@drawable/call_input_bkg"
+        android:gravity="left|center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp" />
+
+    <RelativeLayout
+        android:layout_width="580dp"
+        android:layout_height="420dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@+id/call_div" >
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/call_btn_01" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="28dp"
+            android:layout_toRightOf="@+id/call_btn_1"
+            android:background="@drawable/call_btn_02" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="28dp"
+            android:layout_toRightOf="@+id/call_btn_2"
+            android:background="@drawable/call_btn_03" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/call_btn_1"
+            android:layout_below="@+id/call_btn_1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/call_btn_04" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/call_btn_2"
+            android:layout_below="@+id/call_btn_2"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/call_btn_05" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/call_btn_3"
+            android:layout_below="@+id/call_btn_3"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/call_btn_06" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/call_btn_4"
+            android:layout_below="@+id/call_btn_4"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/call_btn_07" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/call_btn_5"
+            android:layout_below="@+id/call_btn_5"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/call_btn_08" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/call_btn_6"
+            android:layout_below="@+id/call_btn_6"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/call_btn_09" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/call_btn_7"
+            android:layout_below="@+id/call_btn_7"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/call_btn_start" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/call_btn_8"
+            android:layout_below="@+id/call_btn_8"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/call_btn_00" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/call_btn_9"
+            android:layout_below="@+id/call_btn_9"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/call_btn_del" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_build"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/call_btn_3"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="48dp"
+            android:layout_toRightOf="@+id/call_btn_3"
+            android:background="@drawable/call_btn_normal"
+            android:text="@string/call_btn_build"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/call_btn_text" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/call_btn_6"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="48dp"
+            android:layout_toRightOf="@+id/call_btn_6"
+            android:background="@drawable/call_btn_normal"
+            android:text="@string/call_btn_unit"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/call_btn_text" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/call_btn_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/call_btn_del"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="48dp"
+            android:layout_toRightOf="@+id/call_btn_3"
+            android:background="@drawable/call_btn_normal"
+            android:text="@string/call_btn_center"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/call_btn_text" />
+    </RelativeLayout>
+
+</RelativeLayout>

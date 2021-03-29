@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="@string/login_passwd_prompt"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/login_passwd"
+        android:layout_width="220dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="8dip"
+        android:inputType="numberPassword"
+        android:textSize="18sp" />
+
+</LinearLayout>

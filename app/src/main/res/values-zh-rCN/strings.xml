@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">云对讲</string>
+
+    <string name="main_btn_call">视频呼叫</string>
+    <string name="main_btn_monitor">视频监视</string>
+    <string name="main_btn_logger">通话记录</string>
+    <string name="main_btn_room">房号设置</string>
+    <string name="main_btn_voip">SIP设置</string>
+    <string name="main_btn_setup">系统设置</string>
+
+    <string name="login_title">工程密码</string>
+    <string name="login_passwd_prompt">密码：</string>
+    <string name="login_passwd_ok">确定</string>
+    <string name="login_passwd_cancel">取消</string>
+
+    <string name="call_btn_build">栋号</string>
+    <string name="call_btn_unit">单元</string>
+    <string name="call_btn_slaves">副分机</string>
+    <string name="call_btn_center">管理中心</string>
+    <string name="call_phonebook">联系人</string>
+    <string name="call_err_search">正在查找</string>
+    <string name="call_err_call">正在呼叫</string>
+    <string name="call_err_addr">查找失败</string>
+    <string name="call_err_timeout">呼叫超时</string>
+    <string name="call_err_failed">呼叫失败</string>
+    <string name="call_slave_name">分机</string>
+
+    <string name="monitor_select_unit">主机</string>
+    <string name="monitor_select_sub">二次</string>
+    <string name="monitor_err_search">正在查找设备</string>
+    <string name="monitor_err_addr">查找设备失败</string>
+    <string name="monitor_err_failed">设备监视失败</string>
+
+    <string name="room_text_build">楼栋号</string>
+    <string name="room_text_unit">单元号</string>
+    <string name="room_text_floor">楼层号</string>
+    <string name="room_text_family">住户号</string>
+    <string name="room_text_dcode">设备码</string>
+    <string name="room_text_sync">同步码</string>
+    <string name="room_text_server">服务器</string>
+    <string name="room_text_passwd">密码</string>
+
+    <string name="voip_text_proxy">服务器</string>
+    <string name="voip_text_realm">设备域</string>
+    <string name="voip_text_passwd">密码</string>
+    <string name="voip_text_stunip">STUN地址</string>
+    <string name="voip_text_stunport">STUN端口</string>
+    <string name="voip_text_ex_en">启用</string>
+    <string name="voip_text_ex_user">用户名</string>
+
+    <string name="logger_text_no">序  号</string>
+    <string name="logger_text_ts">日  期</string>
+    <string name="logger_text_id">号  码</string>
+    <string name="logger_text_length">通话时间</string>
+    <string name="logger_callback_text">状态：</string>
+    <string name="logger_backup_sd_err">SD卡不存在，无法拷贝！</string>
+    <string name="logger_backup_sd_ok">拷贝  %d 张图片到SD卡!</string>
+
+    <string name="setup_btn_ok">确定</string>
+    <string name="setup_btn_talk">对讲相关</string>
+    <string name="setup_btn_network">网络设置</string>
+    <string name="setup_btn_passwd">工程密码</string>
+    <string name="setup_btn_qr2d">二维码</string>
+
+    <string name="setup_talk_camera">摄像头：</string>
+    <string name="setup_talk_msg">自动留言：</string>
+    <string name="setup_talk_auto_answer">自动接听:</string>
+    <string name="setup_talk_volume">对讲音量:</string>
+
+    <string name="setup_network_dhcp">DHCP:</string>
+    <string name="setup_network_ip">IP地址:</string>
+    <string name="setup_network_mask">子网掩码:</string>
+    <string name="setup_network_gateway">默认网关:</string>
+    <string name="setup_network_dns">DNS:</string>
+
+    <string name="setup_passwd_old">旧密码：</string>
+    <string name="setup_passwd_new">新密码：</string>
+    <string name="setup_passwd_confirm">重新输入：</string>
+
+    <string name="talk_text_center">管理机</string>
+    <string name="talk_text_main">门口机</string>
+    <string name="talk_text_wall">围墙机</string>
+    <string name="talk_text_build">栋</string>
+    <string name="talk_text_unit">单元</string>
+    <string name="talk_text_person">小门口机</string>
+    <string name="talk_text_busy">" 无法呼入!"</string>
+
+    <string name="ip_conflict">IP冲突</string>
+</resources>

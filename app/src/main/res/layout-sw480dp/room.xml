@@ -1,0 +1,219 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sub_bkg3"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        android:layout_width="900dp"
+        android:layout_height="460dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="74dp"
+            android:gravity="right"
+            android:text="@string/room_text_build"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/room_edit_build"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="192dp"
+            android:layout_marginTop="70dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="154dp"
+            android:gravity="right"
+            android:text="@string/room_text_unit"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/room_edit_unit"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="192dp"
+            android:layout_marginTop="150dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="234dp"
+            android:gravity="right"
+            android:text="@string/room_text_floor"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/room_edit_floor"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="192dp"
+            android:layout_marginTop="230dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="314dp"
+            android:gravity="right"
+            android:text="@string/room_text_family"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/room_edit_family"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="192dp"
+            android:layout_marginTop="310dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="400dp"
+            android:layout_marginTop="74dp"
+            android:gravity="right"
+            android:text="@string/room_text_dcode"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/room_edit_dcode"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="576dp"
+            android:layout_marginTop="70dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="400dp"
+            android:layout_marginTop="154dp"
+            android:gravity="right"
+            android:text="@string/room_text_sync"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/room_edit_sync"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="576dp"
+            android:layout_marginTop="150dp"
+            android:singleLine="true"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="400dp"
+            android:layout_marginTop="234dp"
+            android:gravity="right"
+            android:text="@string/room_text_server"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/room_edit_server"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="576dp"
+            android:layout_marginTop="230dp"
+            android:singleLine="true"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="400dp"
+            android:layout_marginTop="314dp"
+            android:gravity="right"
+            android:text="@string/room_text_passwd"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/room_edit_passwd"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="576dp"
+            android:layout_marginTop="310dp"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="28sp" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/room_btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="686dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/setup_btn_ok"
+            android:text="@string/setup_btn_ok"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

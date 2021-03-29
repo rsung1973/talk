@@ -1,0 +1,479 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sub_bkg2"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        android:id="@+id/setup_scroll"
+        android:layout_width="140dp"
+        android:layout_height="280dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8dp" >
+
+        <ScrollView
+            android:id="@+id/setup_scroll_view"
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="8dp"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.dnake.widget.Button2
+                    android:id="@+id/setup_btn_talk"
+                    android:layout_width="132dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/setup_btn_talk"
+                    android:gravity="left|center"
+                    android:paddingLeft="42dp"
+                    android:text="@string/setup_btn_talk"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <com.dnake.widget.Button2
+                    android:id="@+id/setup_btn_network"
+                    android:layout_width="132dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/setup_btn_network"
+                    android:gravity="left|center"
+                    android:paddingLeft="42dp"
+                    android:text="@string/setup_btn_network"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <com.dnake.widget.Button2
+                    android:id="@+id/setup_btn_passwd"
+                    android:layout_width="132dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/setup_btn_passwd"
+                    android:gravity="left|center"
+                    android:paddingLeft="42dp"
+                    android:text="@string/setup_btn_passwd"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <com.dnake.widget.Button2
+                    android:id="@+id/setup_btn_qr2d"
+                    android:layout_width="132dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/setup_btn_qr2d"
+                    android:gravity="left|center"
+                    android:paddingLeft="42dp"
+                    android:text="@string/setup_btn_qr2d"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/setup_div"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/setup_scroll"
+        android:src="@drawable/setup_div" />
+
+    <RelativeLayout
+        android:layout_width="328dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/setup_div" >
+
+        <RelativeLayout
+            android:id="@+id/setup_layout_talk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/setup_talk_camera"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/setup_talk_camera"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="6dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="58dp"
+                android:text="@string/setup_talk_msg"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/setup_talk_msg"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="46dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="104dp"
+                android:text="@string/setup_talk_auto_answer"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/setup_talk_auto_answer"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="92dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="150dp"
+                android:text="@string/setup_talk_volume"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <SeekBar
+                android:id="@+id/setup_talk_volume"
+                android:layout_width="138dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="152dp" />
+
+            <com.dnake.widget.Button2
+                android:id="@+id/setup_talk_ok"
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="208dp"
+                android:background="@drawable/setup_btn_ok"
+                android:text="@string/setup_btn_ok"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/setup_layout_network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="2dp"
+                android:text="@string/setup_network_dhcp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/setup_network_dhcp"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="38dp"
+                android:text="@string/setup_network_ip"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/setup_network_ip"
+                android:layout_width="180dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="38dp"
+                android:paddingBottom="8dip"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="74dp"
+                android:text="@string/setup_network_mask"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/setup_network_mask"
+                android:layout_width="180dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="74dp"
+                android:paddingBottom="8dip"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="110dp"
+                android:text="@string/setup_network_gateway"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/setup_network_gateway"
+                android:layout_width="180dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="110dp"
+                android:paddingBottom="8dip"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="146dp"
+                android:text="@string/setup_network_dns"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/setup_network_dns"
+                android:layout_width="180dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="146dp"
+                android:paddingBottom="8dip"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="182dp"
+                android:text="@string/setup_network_real"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/setup_network_real"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="186dp"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="210dp"
+                android:text="@string/setup_network_mac"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/setup_network_mac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="214dp"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <com.dnake.widget.Button2
+                android:id="@+id/setup_network_ok"
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="208dp"
+                android:layout_marginTop="216dp"
+                android:background="@drawable/setup_btn_ok"
+                android:text="@string/setup_btn_ok"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/setup_layout_passwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/setup_passwd_old_text"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/setup_passwd_old"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/setup_passwd_old"
+                android:layout_width="160dp"
+                android:layout_height="36dp"
+                android:layout_alignBaseline="@+id/setup_passwd_old_text"
+                android:layout_marginLeft="32dp"
+                android:layout_toRightOf="@+id/setup_passwd_old_text"
+                android:paddingBottom="8dip"
+                android:inputType="numberPassword"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/setup_passwd_new_text"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/setup_passwd_new"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/setup_passwd_new"
+                android:layout_width="160dp"
+                android:layout_height="36dp"
+                android:layout_alignBaseline="@+id/setup_passwd_new_text"
+                android:layout_marginLeft="32dp"
+                android:layout_toRightOf="@+id/setup_passwd_new_text"
+                android:paddingBottom="8dip"
+                android:inputType="numberPassword"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/setup_passwd_confirm_text"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="100dp"
+                android:text="@string/setup_passwd_confirm"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/setup_passwd_confirm"
+                android:layout_width="160dp"
+                android:layout_height="36dp"
+                android:layout_alignBaseline="@+id/setup_passwd_confirm_text"
+                android:layout_marginLeft="32dp"
+                android:layout_toRightOf="@+id/setup_passwd_confirm_text"
+                android:paddingBottom="8dip"
+                android:inputType="numberPassword"
+                android:textSize="18sp" />
+
+            <com.dnake.widget.Button2
+                android:id="@+id/setup_passwd_ok"
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="208dp"
+                android:background="@drawable/setup_btn_ok"
+                android:text="@string/setup_btn_ok"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/setup_layout_qr2d"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <ImageView
+                android:id="@+id/setup_talk_qr"
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sub_bkg3"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        android:layout_width="900dp"
+        android:layout_height="460dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="4dp"
+            android:gravity="right"
+            android:text="@string/voip_text_ex_en"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <CheckBox
+            android:id="@+id/voip_ck_ex_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="84dp"
+            android:gravity="right"
+            android:text="@string/voip_text_proxy"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/voip_edit_proxy"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="80dp"
+            android:singleLine="true"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="164dp"
+            android:gravity="right"
+            android:text="@string/voip_text_realm"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/voip_edit_realm"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="160dp"
+            android:singleLine="true"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="244dp"
+            android:gravity="right"
+            android:text="@string/voip_text_stunip"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/voip_edit_stunip"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="240dp"
+            android:singleLine="true"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="324dp"
+            android:gravity="right"
+            android:text="@string/voip_text_stunport"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/voip_edit_stunport"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="182dp"
+            android:layout_marginTop="320dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="490dp"
+            android:layout_marginTop="84dp"
+            android:gravity="right"
+            android:text="@string/voip_text_ex_user"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/voip_edit_ex_user"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="656dp"
+            android:layout_marginTop="80dp"
+            android:singleLine="true"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="490dp"
+            android:layout_marginTop="164dp"
+            android:gravity="right"
+            android:text="@string/voip_text_passwd"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/voip_edit_passwd"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="656dp"
+            android:layout_marginTop="160dp"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="28sp" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/voip_btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="686dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/setup_btn_ok"
+            android:text="@string/setup_btn_ok"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

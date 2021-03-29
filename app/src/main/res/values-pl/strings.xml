@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VOIP</string>
+
+    <string name="main_btn_call">"Dzwoń"</string>
+    <string name="main_btn_monitor">"Monitor"</string>
+    <string name="main_btn_logger">"Nagrania"</string>
+    <string name="main_btn_room">"Pokój"</string>
+    <string name="main_btn_voip">"VOIP"</string>
+    <string name="main_btn_setup">"Ustawienia"</string>
+
+    <string name="login_title">"System"</string>
+    <string name="login_passwd_prompt">"Hasło:"</string>
+    <string name="login_passwd_ok">"OK"</string>
+    <string name="login_passwd_cancel">"Wyjdź"</string>
+
+    <string name="call_btn_build">"Budynek"</string>
+    <string name="call_btn_unit">"Drzwi"</string>
+    <string name="call_btn_slaves">"Slaves"</string>
+    <string name="call_btn_center">"Center"</string>
+    <string name="call_phonebook">"Kontakty"</string>
+    <string name="call_err_search">"Zapytanie urządzenia"</string>
+    <string name="call_err_call">"Dzwonienie"</string>
+    <string name="call_err_addr">"Błędne pytanie!"</string>
+    <string name="call_err_timeout">"Przekroczono limit czasu!"</string>
+    <string name="call_err_failed">"Błąd dzwonienia!"</string>
+    <string name="call_slave_name">"Urządzenie"</string>
+
+    <string name="monitor_select_unit">"Drzwi"</string>
+    <string name="monitor_select_sub">"Mies."</string>
+    <string name="monitor_err_search">"Pytanie urządzenia."</string>
+    <string name="monitor_err_addr">"Złe pytanie!"</string>
+    <string name="monitor_err_failed">"Zły monitor!"</string>
+
+    <string name="room_text_build">"Budynek"</string>
+    <string name="room_text_unit">"Unit"</string>
+    <string name="room_text_floor">"Piętro"</string>
+    <string name="room_text_family">"Pokój"</string>
+    <string name="room_text_dcode">"Urząd."</string>
+    <string name="room_text_sync">"Sync."</string>
+    <string name="room_text_server">"Serwer"</string>
+    <string name="room_text_passwd">"Hasło"</string>
+
+    <string name="voip_text_proxy">"Proxy"</string>
+    <string name="voip_text_realm">"Realm"</string>
+    <string name="voip_text_passwd">"Hasło"</string>
+    <string name="voip_text_stunip">"STUN IP"</string>
+    <string name="voip_text_stunport">"STUN Port"</string>
+    <string name="voip_text_ex_en">"Włącz"</string>
+    <string name="voip_text_ex_user">"użytk."</string>
+
+    <string name="logger_text_no">"Nr"</string>
+    <string name="logger_text_ts">"Data"</string>
+    <string name="logger_text_id">"Numer"</string>
+    <string name="logger_text_length">"Długość"</string>
+    <string name="logger_callback_text">"Podpowiedź:"</string>
+    <string name="logger_backup_sd_err">"Bład kopiowania, brak zewnętrznej karty SD !"</string>
+    <string name="logger_backup_sd_ok">"Masz skopiowanych %d zdjęć!"</string>
+
+    <string name="setup_btn_ok">"OK"</string>
+    <string name="setup_btn_talk">"Domofon"</string>
+    <string name="setup_btn_network">"Sieć"</string>
+    <string name="setup_btn_passwd">"Hasło"</string>
+    <string name="setup_btn_qr2d">"Kod QR"</string>
+
+    <string name="setup_talk_camera">"Kamera:"</string>
+    <string name="setup_talk_msg">"Wiadomość:"</string>
+    <string name="setup_talk_auto_answer">"Autoodpowiedź:"</string>
+    <string name="setup_talk_volume">"Głośność:"</string>
+
+    <string name="setup_network_dhcp">"DHCP:"</string>
+    <string name="setup_network_ip">"IP:"</string>
+    <string name="setup_network_mask">"Maska:"</string>
+    <string name="setup_network_gateway">"Brama:"</string>
+    <string name="setup_network_dns">"DNS:"</string>
+    <string name="setup_network_real">"Sys IP:"</string>
+
+    <string name="setup_passwd_old">"Stary:"</string>
+    <string name="setup_passwd_new">"Nowy:"</string>
+    <string name="setup_passwd_confirm">"Powtórz:"</string>
+
+    <string name="talk_text_center">"Centrum"</string>
+    <string name="talk_text_main">"Drzwi"</string>
+    <string name="talk_text_wall">"Ściana"</string>
+    <string name="talk_text_build">-</string>
+    <string name="talk_text_unit">-</string>
+    <string name="talk_text_person">"Mieszkanie"</string>
+
+    <string name="ip_conflict">"Konflikt adresów IP"</string>
+</resources>

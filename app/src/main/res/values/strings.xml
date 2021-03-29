@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VOIP</string>
+
+    <string name="main_btn_call">Call</string>
+    <string name="main_btn_monitor">Monitor</string>
+    <string name="main_btn_logger">Records</string>
+    <string name="main_btn_room">Room</string>
+    <string name="main_btn_voip">VOIP</string>
+    <string name="main_btn_setup">Settings</string>
+
+    <string name="login_title">System</string>
+    <string name="login_passwd_prompt">Password:</string>
+    <string name="login_passwd_ok">OK</string>
+    <string name="login_passwd_cancel">Cancel</string>
+
+    <string name="call_btn_build">Building</string>
+    <string name="call_btn_unit">Unit</string>
+    <string name="call_btn_slaves">Slaves</string>
+    <string name="call_btn_center">Center</string>
+    <string name="call_phonebook">Contacts</string>
+    <string name="call_err_search">Query device.</string>
+    <string name="call_err_call">In calling.</string>
+    <string name="call_err_addr">Query failed!</string>
+    <string name="call_err_timeout">Called timeout!</string>
+    <string name="call_err_failed">Called failed!</string>
+    <string name="call_slave_name">Device</string>
+
+    <string name="monitor_select_unit">Door</string>
+    <string name="monitor_select_sub">Flat</string>
+    <string name="monitor_err_search">Query device.</string>
+    <string name="monitor_err_addr">Query failed!</string>
+    <string name="monitor_err_failed">Monitor failed!</string>
+
+    <string name="room_text_build">Building</string>
+    <string name="room_text_unit">Unit</string>
+    <string name="room_text_floor">Floor</string>
+    <string name="room_text_family">Room</string>
+    <string name="room_text_dcode">Device</string>
+    <string name="room_text_sync">Sync</string>
+    <string name="room_text_server">Server</string>
+    <string name="room_text_passwd">Password</string>
+
+    <string name="voip_text_proxy">Proxy</string>
+    <string name="voip_text_realm">Realm</string>
+    <string name="voip_text_passwd">Password</string>
+    <string name="voip_text_stunip">STUN IP</string>
+    <string name="voip_text_stunport">STUN Port</string>
+    <string name="voip_text_ex_en">Enable</string>
+    <string name="voip_text_ex_user">User</string>
+
+    <string name="logger_text_no">NO.</string>
+    <string name="logger_text_ts">Date</string>
+    <string name="logger_text_id">Number</string>
+    <string name="logger_text_length">Length</string>
+    <string name="logger_callback_text">Prompt:</string>
+    <string name="logger_backup_sd_err">Copy failed, Extern SD card not exist!</string>
+    <string name="logger_backup_sd_ok">Have %d snapshot copied!</string>
+
+    <string name="setup_btn_ok">OK</string>
+    <string name="setup_btn_talk">Intercom</string>
+    <string name="setup_btn_network">Network</string>
+    <string name="setup_btn_passwd">Password</string>
+    <string name="setup_btn_qr2d">QR Code</string>
+
+    <string name="setup_talk_camera">Camera:</string>
+    <string name="setup_talk_msg">Message:</string>
+    <string name="setup_talk_auto_answer">Auto answer:</string>
+    <string name="setup_talk_volume">Volume:</string>
+
+    <string name="setup_network_dhcp">DHCP:</string>
+    <string name="setup_network_ip">IP:</string>
+    <string name="setup_network_mask">Mask:</string>
+    <string name="setup_network_gateway">Gateway:</string>
+    <string name="setup_network_dns">DNS:</string>
+    <string name="setup_network_real">IP:</string>
+    <string name="setup_network_mac">MAC:</string>
+
+    <string name="setup_passwd_old">Old:</string>
+    <string name="setup_passwd_new">New:</string>
+    <string name="setup_passwd_confirm">Confirm:</string>
+
+    <string name="talk_text_center">Center</string>
+    <string name="talk_text_main">Door</string>
+    <string name="talk_text_wall">Wall</string>
+    <string name="talk_text_build">-</string>
+    <string name="talk_text_unit">-</string>
+    <string name="talk_text_person">Flat</string>
+    <string name="talk_text_busy">" can't call in!"</string>
+
+    <string name="ip_conflict">IP conflict</string>
+</resources>
